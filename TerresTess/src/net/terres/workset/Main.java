@@ -1,11 +1,13 @@
 package net.terres.workset;
 
-public class Main {
+public class Main{
 
 	public static void main(String[] args) 
 	{
 		
-		GameWindow.createWindow();
+		GameWindow gamewin = new GameWindow();
+		gamewin.GameLayout();
+		gamewin.showFlowLayoutDemo();
 		
 		
 		//open window starting the game
