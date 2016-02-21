@@ -61,7 +61,17 @@ public class Main {
 						System.out.println(z);
 						System.out.println(input);
 						continue;}
-						
+						/*
+						if (input.equals("Yes") || input.equals("yes")) {
+                    				System.out.println("Yes");
+                				 gameRunning = true;
+                				   input = "";
+                				} else if (input.equals("No") || input.equals("no")) {
+                				  System.out.println("No");
+                				  levelOne = false;
+        					 } else {
+                				}
+						*/
 					
 				}while(gameRunning);
 				}
