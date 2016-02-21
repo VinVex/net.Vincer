@@ -8,7 +8,10 @@ public class Main {
 		
 		Boolean gameRunning = false;
 		Boolean levelOne = true;
-
+		int numx = 20; //min
+		int numy = 100; //max
+		int z = ((numy-numx)/2);
+		int xx;
 		// TODO Auto-generated method stub
 		
 		Scanner scRead = new Scanner(System.in);
@@ -28,10 +31,7 @@ public class Main {
 			if(gameRunning == true){
 				
 				do{
-					int numx = 20; //min
-					int numy = 100; //max
-					int z = ((numy-numx)/2);
-					int xx;
+
 					
 					System.out.println("Is your number Greater or Smaller than "+ z);
 					input = scRead.nextLine();
